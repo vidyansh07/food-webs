@@ -1,0 +1,166 @@
+	body {
+			background-color: #AEC2B6;
+			color: rgb(0, 0, 0);
+			font-family: Arial, sans-serif;    
+			font-family: 'Roboto', sans-serif;
+
+		}
+
+		header {
+			background-color:#AEC2B6;
+			padding: 20px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin-bottom: 0;
+		}
+
+		nav ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			justify-content: end;
+		}
+
+		nav li {
+			margin: 0 10px;
+		}
+
+		nav a {
+			color: black;
+			text-decoration: none;
+			padding: 10px;
+			border-radius: 5px;
+		}
+
+		nav a:hover {
+			background-color: white;
+			color: black;
+		}
+
+		main section {
+			margin-bottom: 30px;
+			padding: 20px;
+			background-color: #AEC2B6;
+			border-radius: 10px;
+		}
+
+		main h2 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+
+		main ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		div.about
+		{
+			height: 200px;
+			width: 50%;
+			background-color: powderblue;
+			font-stretch: justify;
+
+		}
+		div.contact{
+			height: 200px;
+			width: 100%;
+			padding: 200px;
+			padding-left: 0px;
+				}
+
+		main li {
+			margin-bottom: 10px;
+		}
+
+		main strong {
+			font-weight: bold;
+		}
+
+		form label {
+			display: block;
+			margin-bottom: 5px;
+		}
+
+		form input[type="text"], form input[type="email"], form textarea {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			margin-bottom: 10px;
+		}
+
+		form textarea {
+			height: 100px;
+		}
+
+		form input[type="submit"] {
+			background-color: #AEC2B6;
+			color: black;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		form input[type="submit"]:hover {
+			background-color: white;
+		}
+
+		footer {
+			background-color: #AEC2B6;
+			padding: 20px;
+			text-align: center;
+			margin-top: 20px;
+			border-radius: 10px;
+		}
+
+		footer p {
+			margin: 0;
+		}
+
+       header {
+        background: url('https://images.unsplash.com/photo-1536513839836-6dfe81ee25f7') no-repeat center center fixed;
+        background-size: cover;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      nav a:hover {
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+      }
+
+      header {
+        animation: fadein 2s;
+      }
+      
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+
+      form input[type="text"], form input[type="email"], form textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 10px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+      }
+	  
+	  
